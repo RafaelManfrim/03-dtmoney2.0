@@ -1,3 +1,20 @@
 {
-  "transactions": []
+  "transactions": [
+    {
+      "id": 1,
+      "type": "income",
+      "description": "Salário",
+      "price": 1000,
+      "category": "Salário",
+      "createdAt": "2022-08-14T02:44:36.103Z"
+    },
+    {
+      "id": 2,
+      "type": "outcome",
+      "description": "Lanche",
+      "price": 20,
+      "category": "Alimentação",
+      "createdAt": "2022-08-14T02:45:29.190Z"
+    }
+  ]
 }
