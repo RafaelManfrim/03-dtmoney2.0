@@ -60,7 +60,7 @@ export function TransactionsProvider({ children }: TransactionsProviderProps) {
 
   useEffect(() => {
     loadTransactions()
-  }, [])
+  }, [loadTransactions])
 
   const providerValue = {
     transactions,
